@@ -203,82 +203,16 @@
       <div class="row">
         <!-- <div class="col-lg-12"> -->
           <table style='float'>
-            <tr>
-              <th>Date</th>
-              <th>Speaker/Tutorial</th> 
-              <th>Time</th>
-            </tr>
-            <tr>
-              <td>Thursday, Aug. 31st</td>
-              <td>Welcome! in SERC 604 </td> 
-              <td>4pm</td>
-            </tr>
-            <tr>
-              <td>Thursday, Sept. 7th</td>
-              <td>Open Coding </td> 
-              <td>4pm</td>
-            </tr>
-            <tr>
-              <td>Thursday, Sept. 14th</td>
-              <td>Open Coding </td> 
-              <td>4pm</td>
-            </tr>
-            <tr>
-              <td>Thursday, Sept. 21st</td>
-              <td>Open Coding </td> 
-              <td>4pm</td>
-            </tr>
-            <tr>
-              <td>Thursday, Sept. 28th</td>
-              <td>Open Coding</td> 
-              <td>4pm</td>
-            </tr>
-            <tr>
-              <td>Thursday, Oct. 5th</td>
-              <td>Open Coding </td> 
-              <td>4pm</td>
-            </tr>
-            <tr>
-              <td>Thursday, Oct. 12th</td>
-              <td>Open Coding </td> 
-              <td>4pm</td>
-            </tr>
-            <tr>
-              <td>Thursday, Oct. 19th</td>
-              <td>Open Coding </td> 
-              <td>4pm</td>
-            </tr>
-            <tr>
-              <td>Thursday, Oct. 26th</td>
-              <td>Open Coding</td> 
-              <td>4pm</td>
-            </tr>
-            <tr>
-              <td>Thursday, Nov. 2nd</td>
-              <td>Open Coding </td> 
-              <td>4pm</td>
-            </tr>
-            <tr>
-              <td>Thursday, Nov. 9th</td>
-              <td>Open Coding</td> 
-              <td>4pm</td>
-            </tr>
-            <tr>
-              <td>Thursday, Nov. 16th</td>
-              <td>Open Coding </td> 
-              <td>4pm</td>
-            </tr>
-            <tr>
-              <td>Thursday, Nov. 31st</td>
-              <td>Open Coding </td> 
-              <td>4pm</td>
-            </tr>
-            <tr>
-              <td>Thursday, Dec. 7th</td>
-              <td>Open Coding </td> 
-              <td>4pm</td>
-            </tr>
-            </table>
+            <thead>
+              <tr>
+                <th>Date</th>
+                <th>Speaker/Tutorial</th>
+                <th>Time</th>
+              </tr>
+            </thead>
+            <tbody id='events-body'>
+            </tbody>
+          </table>
         <!-- </div>   -->
         <!-- <div class="col-lg-12"> -->
           <table style = 'float'>
@@ -681,6 +615,12 @@
 
   <!-- Custom scripts for this template -->
   <script src="js/agency.min.js"></script>
+
+  <!-- D3, for data-driven documents -->
+  <script src="js/d3.v7.min.js"></script>
+
+  <!-- Populate tables from content -->
+  <script src="js/cms.js"></script>
 
 </body>
 
